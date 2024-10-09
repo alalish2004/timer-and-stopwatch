@@ -1,0 +1,2486 @@
+00:49:37 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5608 bytes (17.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:01:08 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5572 bytes (17.0% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:07:35 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5580 bytes (17.0% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:49 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5608 bytes (17.1% Full)
+(.text + .data + .bootloader)
+
+Data:         11 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:23 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5732 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:45:37 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5732 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:18 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5738 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:50:50 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5738 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:51:11 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5732 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:51:42 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5712 bytes (17.4% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:11:26 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5748 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:15:36 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5748 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:34:18 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5758 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:37:14 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5748 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:37:31 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5748 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         12 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:49:00 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5790 bytes (17.7% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:20:59 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5818 bytes (17.8% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:29:53 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../project.c: In function 'main':
+../project.c:178: warning: suggest parentheses around assignment used as truth value
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5834 bytes (17.8% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:30:54 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5868 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:34:28 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5868 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:40:52 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5924 bytes (18.1% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:42:17 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5868 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:25:35 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../project.c: In function 'main':
+../project.c:151: error: 'PORT' undeclared (first use in this function)
+../project.c:151: error: (Each undeclared identifier is reported only once
+../project.c:151: error: for each function it appears in.)
+make: *** [project.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:25:54 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5898 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:45:11 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5898 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:32:58 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6212 bytes (19.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:37:00 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../project.c: In function 'timer1_compare':
+../project.c:27: error: called object '150' is not a function
+make: *** [project.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:37:07 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6212 bytes (19.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:44:57 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5898 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:04:08 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6212 bytes (19.0% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:07:45 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6212 bytes (19.0% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:09:53 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6212 bytes (19.0% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:10:32 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6212 bytes (19.0% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:11:26 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6212 bytes (19.0% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:15:14 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6214 bytes (19.0% Full)
+(.text + .data + .bootloader)
+
+Data:         17 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:16:02 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../project.c: In function 'main':
+../project.c:207: error: 'hrsflag' undeclared (first use in this function)
+../project.c:207: error: (Each undeclared identifier is reported only once
+../project.c:207: error: for each function it appears in.)
+make: *** [project.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:16:22 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6214 bytes (19.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:16:54 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6214 bytes (19.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:31:01 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5900 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:37:36 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5906 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:38:02 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5900 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:38:53 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5900 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:40:02 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5900 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:42:14 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5898 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:43:43 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5900 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:44:39 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5898 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:56:23 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5898 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:26:16 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5904 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:26:27 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5904 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:28:20 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5898 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:29:51 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5912 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:30:03 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5918 bytes (18.1% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:30:58 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5918 bytes (18.1% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:31:34 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5914 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:35:01 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5932 bytes (18.1% Full)
+(.text + .data + .bootloader)
+
+Data:         13 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:36:08 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5928 bytes (18.1% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:41:05 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5928 bytes (18.1% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:41:52 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5934 bytes (18.1% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:55:03 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5982 bytes (18.3% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:55:35 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5982 bytes (18.3% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:56:22 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5976 bytes (18.2% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:57:41 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5976 bytes (18.2% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:06:21 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6048 bytes (18.5% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:08:33 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6060 bytes (18.5% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:11:19 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6046 bytes (18.5% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:40:03 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6272 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:44:44 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../project.c: In function 'timer1_compare':
+../project.c:34: error: called object '100' is not a function
+make: *** [project.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:44:50 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6272 bytes (19.1% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:54:49 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6336 bytes (19.3% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:55:14 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6336 bytes (19.3% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:01:33 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: miniproject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,miniproject2.map -mmcu=atmega32 -o "miniproject2.elf"  ./project.o   
+Finished building target: miniproject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S miniproject2.elf  >"miniproject2.lss"
+Finished building: miniproject2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex miniproject2.elf  "miniproject2.hex"
+Finished building: miniproject2.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6344 bytes (19.4% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:02:09 **** Incremental Build of configuration Debug for project miniproject2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 miniproject2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6344 bytes (19.4% Full)
+(.text + .data + .bootloader)
+
+Data:         19 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

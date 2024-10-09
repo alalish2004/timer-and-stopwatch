@@ -1,0 +1,19 @@
+02:24:48 **** Incremental Build of configuration Debug for project mini project 2 ****
+make all 
+Building file: ../project.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"project.d" -MT"project.o" -c -o "project.o" "../project.c"
+In file included from ../project.c:8:
+c:/users/ali/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../project.c
+ 
+Building target: mini project 2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini project 2.map -mmcu=atmega32 -o "mini project 2.elf"  ./project.o   
+avr-gcc.exe: project: No such file or directory
+avr-gcc.exe: 2.map: No such file or directory
+make: *** [mini project 2.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+02:24:48 Build Failed. 1 errors, 1 warnings. (took 255ms)
+
